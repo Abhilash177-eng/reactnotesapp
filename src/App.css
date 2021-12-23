@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+.noteheader {
+    width: 100%;
+    height: 10%;
+    background-color: yellow;
+    position: absolute;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.createnotecointainer {
+    width: 40%;
+    height: 80%;
+    margin-top: 8%;
+    background-color: white;
+    position: absolute;
+    margin-left: 29%;
+    border-radius: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.craatenotefont {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 2%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.notes {
+    margin-top: 52%;
+    width: 70%;
+    height: 60%;
+    display: flex;
+    background-color: whitesmoke;
+    position: absolute;
+    overflow:auto;
+    margin-left: 15%;
 }
 
-.App-link {
-  color: #61dafb;
+.notesElements {
+    display: flex;
+    width: 20%;
+    height: 40%;
+    background-color: white;
+    margin-left: 1%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.addbutton {
+    border-radius: 50%;
+    width: 12%;
+    height: 12%;
+    background-color: yellow;
+    border: none;
+    margin-top: 80%;
+    color: white;
+    margin-left: 5%;
+    font-size: medium;
+    position: absolute;
+}
+
+.textarea {
+    width: 60%;
+    height: 25%;
+    margin-left: 19%;
+    outline: none;
+    margin-top: 32%;
+}
+
+.inputclass {
+    padding: 8px 10px 10px 0;
+    width: 80%;
+    color: #000;
+    font-size: inherit;
+    background: #fff;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    margin-left: 2%;
+    line-height: 1.4;
+    position: absolute;
+    margin: 7%;
+}
+
+.inputclass:focus {
+    outline: none;
+    border-bottom: 3px solid skyblue;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.buttonstyle {
+    display: block;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    margin-top: 67%;
+    margin-left: 75%;
+    background-color: yellow;
 }
